@@ -1,0 +1,77 @@
+.container-account {
+    max-width: 80vw;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .container-account .tabs {
+    display: flex;
+    flex-direction: column;
+    width: 200%;
+  }
+  
+  .container-account .tab {
+    padding: 10px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+  .container-account .tab.active {
+    background-color: #ccc;
+  }
+  
+  .container-account .tab-content {
+    margin-top: 20px;
+  }
+  
+  .container-account h2 {
+    margin-bottom: 10px;
+  }
+  
+  .container-account form div {
+    margin-bottom: 10px;
+  }
+  
+  .container-account label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .container-account input[type="text"],
+  .container-account input[type="password"],
+  .container-account textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .container-account button {
+    background-color: #000137;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .container-account button[type="submit"] {
+    background-color: #000137;
+  }
+
+  .account-left{
+      margin-top: 10%;
+      flex-basis: 50%;
+      float: left;
+      padding-right: 10px;
+  }
+  .account-right{
+    margin-top: 10%;
+    margin-left: 20%;
+    float: left;
+    flex-basis: 50%;
+    padding-left: 10px;
+  }
+  
+  
+  

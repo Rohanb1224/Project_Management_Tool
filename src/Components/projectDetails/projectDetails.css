@@ -1,0 +1,20 @@
+.projectdetails h1{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.input-holder{
+    margin-left: 38%;
+}
+
+.todoinput{
+    height: 25px;
+    width: 300px;
+}
+.todobutton{
+    background-color: #000137;
+    color: white;
+    height: 30px;
+    width: 100px;
+    margin-left: 10px;
+}

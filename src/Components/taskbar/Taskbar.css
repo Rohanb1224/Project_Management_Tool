@@ -1,0 +1,217 @@
+.taskbar{
+    top:0;
+    right: 0;
+    width:95%;
+    height:30px;
+    background-color: #B0D8F1;
+    color:#000137;;
+    position: fixed;
+}
+.taskbar.open{
+    right:0;
+    width:85%;
+}
+.taskbar .right{
+    padding-top: 1px;
+    right: 0;
+    color: #000137;
+    float:right;
+    text-align: right;
+    margin: 0 10px 0 10px;
+    font-size: 20px;
+}
+.taskbar .right a{
+  color: #000137;
+  font-size: 15px;
+}
+.taskbar .left{
+    padding-top: 1px;
+    margin: 0 10px 0 10px;
+    text-align: left;
+    float:left;
+    left:0;
+    font-size: 20px;
+    color: #000137;
+}
+.taskbar .right a{
+    text-decoration: none;
+    color: #000137;
+    font-weight: 600;
+}
+.dropdown-options {
+    display: none;
+    position: absolute;
+    overflow: auto;
+    background-color:transparent;
+    border-radius:5px;
+    padding: 5px;
+  }
+  
+  .navbar.open .dropdown:hover .dropdown-options {
+    display: block;
+  }
+  
+  .dropdown-options a {
+    display: block;
+    
+    font-size: 14px;
+
+    padding: 5px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .dropdown-options a:hover {
+    color: white;
+    
+  }
+  .navbar-button{
+    padding: 5px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 0;
+    border: none;
+    color: red;
+
+    background-color: transparent;
+  }
+  .dropdown-list{
+    text-align: left;
+    left: 0;
+    float: left;
+  }
+  .dropdown-list li a{
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+  }
+  .taskbar-icon{
+    padding-right: 10px;
+  }
+  .taskbar-name{
+    padding-left:10px;
+    
+  }
+  
+  .dropdown:hover{
+    background-color: #02055A;
+  }
+  .navbar-li{
+    font-size: 35px;
+  }
+  .navbar-li:hover{
+    background-color: #02055A;
+  }
+
+  .navbar {
+    background-color: #000137;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    transition: width 0.3s;
+    z-index: 100;
+    
+  }
+  
+  .navbar.open {
+    width: 15%;
+  }
+  
+  .navbar-toggle {
+    color: #000137;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    margin-bottom: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .bar {
+    background-color: #000137;
+    height: 3px;
+    width: 20px;
+    margin-bottom: 4px;
+    transition: transform 0.3s;
+  }
+  
+  .taskbar.open .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .taskbar.open .bar:first-child {
+    transform: translateY(8px) rotate(45deg);
+  }
+  
+  .taskbar.open .bar:last-child {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  
+  .navbar-links {
+    margin-top: 30%;
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    flex-direction: column;
+  }
+  
+  .navbar-link {
+    left: 0;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+  }
+  
+  .navbar-link a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 5px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  .navbar-button a{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+  }
+
+  .navbar img{
+    width: 40%;
+  }
+  .navbar p img{
+    width: 100%;
+    height: auto;
+  }
+  .navbar.open p img{
+    width: 40%;
+    height: auto;
+  }
+  .navbar p .logoName{
+    display: none;
+  }
+  .navbar.open p .logoName{
+    padding-top: 10px;
+    display: flex;
+  }
+  .navbar .taskbar-name{
+    display: none;
+  }
+  .navbar .taskbar-icon{
+    padding-left: 25px;
+  }
+  .navbar.open .taskbar-icon{
+    padding-left: 25px;
+  }
+  .navbar.open .taskbar-name{
+    display: contents;
+  }

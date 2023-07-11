@@ -1,0 +1,49 @@
+.UProfile-container{
+    margin:50px 20px 20px 100px;
+}
+.left-container{
+    margin-left:50px;
+    margin-top: 70px;
+    width: 10%;
+}
+.left-container img{
+    width: 150px;
+    border-radius: 50%;
+}
+.left-container h1{
+    font-size: large;
+    text-align: center;
+}
+.left-container h5{
+    margin-top: -3%;
+    font-weight: 300;
+    color: gray;
+    text-align: center;
+}
+.right-container{
+    margin-top: -17%;
+    margin-left: 30%;
+    width: 40%;
+}
+.right-container ul{
+    margin-left: 10%;
+    padding: 10px 15px 10px 10px;
+    width: fit-content;
+    background-color: rgb(188, 188, 188);
+    list-style: none;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.right-container li{
+    list-style: none;
+    margin-bottom:5% ;
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.last-container{
+    margin-left: 70%;
+    margin-top: -60%;
+    width: 28%;
+}

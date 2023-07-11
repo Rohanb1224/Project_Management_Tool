@@ -1,0 +1,9 @@
+.icontodo{
+    cursor: pointer;
+    display: inline;
+}
+
+.todoname{
+    margin-left: 38%;
+    
+}

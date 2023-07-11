@@ -1,0 +1,70 @@
+.login-container {
+    height: 100vh;
+}
+.login-image img{
+    margin-left: 10vh;
+    height: 90vh;
+}
+.register-image img{
+    height:70vh;
+}
+.login-desc{
+    margin-top: -60vh;
+    float: right;
+    margin-right: 10%;
+}
+.login-desc label{
+    padding-right: 20px;
+}
+.login-desc span{
+    color: #4aaae7;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.login-desc .error{
+    color:red;
+    font-size: 1rem;
+    font-weight: 300;
+}
+.login-desc input[type="email"],
+.login-desc input[type="password"],
+.login-desc input[type="text"]{
+    width: 70%;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+    padding-bottom: 10px;
+}
+.login-desc a{
+    margin-top: 50px;
+    font-size: 13px;
+}
+
+.login-desc input[type="submit"]
+{
+    font-size: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #4aaae7;
+    border: 1px solid #4aaae7;
+    padding: 20px;
+    width: 15vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 2vw;
+}
+.login-desc button{
+    font-size: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    border: 1px solid white;
+    color: #000137;
+    padding: 20px;
+    width: 15vw;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.login-desc button:hover,.login-desc input[type="submit"]:hover{
+    background-color: #000137;
+    border: 1px solid #000137;
+    color:white
+}
